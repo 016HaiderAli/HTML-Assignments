@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Date your daughter </title>
+    </head>
+<body>
+    <h1 style="font-family: sans-serif;" align="center"> Assignment#8</h1>
+
+    <table border="2px" style="background-color: #00bfff;">
+        <tr>
+            <th style="font-size: 20pt;"> <a href="index.html">UserInfo</a></th>
+            <th style="font-size: 20pt;"> <a href="Permission to date my daughter.html">Application to Date my Daughter Task</a> </th>
+            <th style="font-size: 20pt;"> <a href="good_vibes_form.html">Good Vibes Form Task</a> </th>
+            <th style="font-size: 20pt;"> <a href="survey_form.html">Free Code Camp Survey Form Task</a> </th>
+            <th style="font-size: 20pt;"> <a href="Building_with_Html_and_CSS.html">Building with HTML and CSS Task</a> </th>
+            <th style="font-size: 20pt;"> <a style="font-size: 20pt;"> <a href="Project_ideas.html">HTML Project Ideas Task</a> </th>
+        </tr>    
+   </table>
+
+  <!--Start of Task-->
+  <fieldset>  
+   <h1 align="center"> Application for Permission to Date My Daughter</h1>
+
+    <label><b>Note:</B> Form is to be completed at least 21 days prior to date</label>
+
+        <!--Fieldset#1 Person Details -->
+    <fieldset>
+        <legend> Person Details </legend>
+
+        <p><label for="Name">Name:&nbsp;&nbsp;&nbsp;
+            <input type="text" name="Name" placeholder="Enter name here" maxlength="30" size="15" required="required"> 
+        </label> </p>
+
+        <p><label for="Address">Address:
+            <input type="text" name="Address" placeholder="Enter Address here" maxlength="30" size="15" required="required"> 
+        </label> </p>
+
+        <p><label for="Email">Email: 
+            <input type="email" name="Email" placeholder="Enter mail here" maxlength="30" size="15" required="required">
+        </label></p>
+
+        <p><label for="Email">Email: 
+            <input type="email" name="Email" placeholder="Enter mail here" maxlength="30" size="15" required="required">
+        </label></p>     
+
+        <p>IQ: 
+            <input type="number" name="IQ" placeholder="Enter IQ here" maxlength="30" size="15" required="required">
+        </p>
+        
+        <p><label for="Gender">Gender: <br />
+            <input type="radio" name="Gender" value="Male" checked="checked"> Male <br />
+            <input type="radio" name="Gender" value="Female"> Female <br />
+            <input type="radio" name="Gender" value="Other"> Other
+        </label></p>
+
+        <label for="date">Date of Proposed Outing:
+            <input type="date" name="date">
+        </label>
+    </fieldset>
+
+    <br />
+
+    <!--Fieldset#2 More about Person -->
+    <fieldset>
+        Check All That Apply <br /> <br />
+
+        <input type="checkbox" name="checkfield"> I have tattoos and/or piercing <br />
+        <input type="checkbox" name="checkfield"> I am more than 2 years older than my daughter <br />
+        <input type="checkbox" name="checkfield"> I own a panel van or V8 ute <br />
+        <input type="checkbox" name="checkfield" checked="checked"> I work full-time <br />
+        <input type="checkbox" name="checkfield" checked="checked"> My parents are rich <br />
+        <input type="checkbox" name="checkfield" checked="checked"> Is the date at a well lit public location <br />
+    </fieldset>
+
+    <br /> 
+
+    <!--Fieldset#3 Person Education -->
+    <fieldset>
+        <label for="Politics"> Political Persuasion: 
+            <select name="Politics">
+                <option value="Left-wing" selected="selected"> Left-wing</option>
+                <option value="Right-wing"> Right-wing </option>
+            </select>
+        </label>
+        <label for="Politics"> &nbsp;&nbsp; Education: 
+            <select name="Education">
+                <option value="Education" selected="selected"> University </option>
+                <option value="Education"> Matric </option>
+                <option value="Education"> Intermediate </option>
+            </select>
+        </label>
+    </fieldset>
+
+    <br />
+
+    <!--Fieldset#4 Essay Section-->
+    <fieldset>
+        <legend>Essay Section </legend>
+
+        <br />
+        In 50 words or more explain why you want to date my daughter
+        <br />
+        <textarea rows="3" cols="25" placeholder="Enter Text Here">
+        </textarea>
+
+        <br />
+        Please upload contact details for 2 references
+        <br />
+        <textarea rows="3" cols="25" placeholder="Enter Text Here">
+        </textarea>
+
+        <br />
+        Upload Police Clearance Certificate, Bank Statement and Medical Certificate here: 
+        
+        <label for="file">
+            <input type="file" id="file" name="attachment" value="Attach Files" src="./upload.png" style="background-color:rgb(255, 0, 0);">
+        </label>
+        
+    </fieldset>
+
+    <!--End Of Task-->
+    <br />
+    <center>
+        <input type="submit" name="form" style="background-color:Tomato;" value="Send Your Application"/>
+    </center>
+</fieldset>  
+</body>    
+</html>

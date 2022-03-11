@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Registration Form</title></head>
+<body>
+    <h1 align="center" style="font-family: 'Times New Roman', Times, serif; color: crimson;">Assignment#7</h1>
+    <br />
+
+    <!--Username
+Father name
+CNIC
+Date of birth
+County
+State
+City
+Address
+Postal code
+Contact
+Email address
+Gender
+Languages with multiple selection
+Qualifications
+Your hobbies
+How many siblings you are
+Have a job (yes /no)
+Upload your profile
+
+Submit-->
+
+<fieldset>
+   <form> 
+       <!--user name -->
+    <label>Username  :
+         <input type="text">
+    </label>
+    <br /> 
+    <!--father name -->
+    <label>Father Name :
+         <input type="text">
+    </label>
+    <br /> 
+    <!--Cnic-->
+    <label>CNIC :
+        <input type="number">
+    </label>
+    <br /> 
+    <!--date of birth-->
+    <label>Date of birth:
+        <select name="Day">
+            <option value="day">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+        </select>
+        <select name="Month">
+            <option value="month"> Month</option>
+            <option value="january"> Jan</option>
+            <option value="february"> Feb</option>
+            <option value="March"> March</option>
+            <option value="April"> April</option>
+            <option value="May"> May</option>
+            <option value="June"> June</option>
+            <option value="July"> July</option>
+            <option value="August"> August</option>
+            <option value="September"> September</option>
+            <option value="October"> October</option>
+            <option value="November"> November</option>
+            <option value="December"> December</option>
+        </select>
+        <select name="Year">
+            <option value="year"> Year</option>
+            <option value="1990"> 1990</option>
+            <option value="1991"> 1991</option>
+            <option value="1992"> 1992</option>
+            <option value="1993"> 1993</option>
+            <option value="1994"> 1994</option>
+            <option value="1995"> 1995</option>
+            <option value="1996"> 1996</option>
+            <option value="1997"> 1997</option>
+            <option value="1998"> 1998</option>
+            <option value="1999"> 1999</option>
+            <option value="2000"> 2000</option>   
+        </select>
+    </label>  <br /> 
+<!--COUNTRY-->
+    <label> Country:
+    <input type="text" name="country">
+    </label>   
+    <!--State-->
+    <label> State:
+        <input type="text" name="state">
+    </label>  
+    <!--CITY-->
+    <label> City:
+        <input type="text" name="city">
+    </label>  
+    <br />
+
+    <!--Address-->
+
+    <label> Address: <br />
+        <textarea name="address" cols="50" rows="2"></textarea>
+    </label>  
+    
+    <br /> 
+
+
+    <!--Postal Address-->
+    <label>Postal Address:
+        <input type="number" name="postal_address">
+    </label>  
+    
+    <br /> 
+
+    <!--Contact-->
+    
+    <label> Contact:
+        <input type="number" name="phone">
+    </label>
+
+    <br />
+
+    <!--Email Address-->
+
+    <label>Email :
+        <input type="email"></td>
+    </label>
+
+    <br /> 
+
+    <!--gender-->
+
+    <label>Gender :     
+          <input type="radio" name="Gender"> Male
+          <input type="radio" name="Gender"> Female
+    </label>
+
+    <br /> 
+
+<!--Languages-->
+
+    <label> Languages 
+        <select name="languages" size="5" multiple="multiple">
+            <option value="languages"> Languages</option>
+            <option value="urdu"> Urdu</option>
+            <option value="arabic"> Arabic</option>
+            <option value="English"> English</option>
+            <option value="Russain"> Russian</option>
+        </select>
+    </label>
+    
+    <br />
+
+    <!--Qualifications-->
+    <label for="qualifications"> Qualifications:
+        <br />
+        <label> Matriculation from : <input type="text" name="school"></label> <br />
+        <label> Intermediate from: <input type="text" name="college"></label> <br />
+        <label> Graduated from: <input type="text" name="university"></label> <br />
+    </label>
+
+    <br />
+
+    <!--Hobbies-->
+    <p><font style="color: black;">Hobbies:
+        <input type="checkbox" name="Hobbies" value="Drawing">Drawing 
+        <input type="checkbox" name="Hobbies" value="Dancing">Dancing 
+        <input type="checkbox" name="Hobbies" value="Sketching">Sketching
+        <input type="checkbox" name="Hobbies" value="Sing">Singing
+        <input type="checkbox" name="Hobbies" value="Gaming">Gaming
+        <input type="checkbox" name="Hobbies" value="Movies"> Movies<br/>
+        <input type="checkbox" name="Others" value="Hobbies">Others
+        <input type="text" name="Hobbies" placeholder="select your hobbies!!" maxlength="20" size="24" >(max 20 characters allowed) 
+    </font></p>
+    <br />
+
+    <!--Applied For-->
+    <p><font style="color: black;">Courses Applied For: 
+        <input type="Radio" name="courses" value="BCA">BCA( Bachelors of Computer Applications) <br>
+        <input type="Radio" name="courses" value="B.Com">B.Com(Bachelors of Commerce) <br>
+        <input type="Radio" name="courses" value="B.Sc">B.sc(Bachelors in Sciences) <br>
+        <input type="Radio" name="courses" value="B.A">B.A(Bachelors of Arts) <br>
+        <input type="Radio" name="courses" value="MCA">MCA( Masters of Computer Applications) <br>
+        <input type="Radio" name="courses" value="M.com">M.Com(Masters of Commerce) <br>
+        <input type="Radio" name="courses" value="M.Sc">M.sc(Masters in Sciences) <br>
+        <input type="Radio" name="courses" value="M.A">M.A(Masters in Arts)
+    </font></p>
+
+    <br />
+
+    <!--Siblings-->
+
+    <p>Number Of Siblings: <font style="color: black;">
+        <label for="Siblings" size="5">Siblings:</label>
+        <select name="Siblings">
+            <option value="siblings"> Siblings</option>
+            <option value="none">none</option>
+            <option value="2">2</option>
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="6">6</option>
+            <option value="8">8</option>
+        </select>
+    </font></p>
+
+    <!--Have A Job-->
+    <p><font style="color: black;">Have a Job: <br/> 
+        <input type="Radio" name="Job" value="Yes">Yes
+        <input type="Radio" name="Job" value="No">No 
+    </font></p>
+    <br/>
+
+    <!--Profile Picture-->
+    <p><font style="color: black;">Upload your Profile:
+        <input type="file" name="user-Profile"> <br>
+        <input type="submit" value="Upload">
+    </p></font>
+    <br />
+
+    <p>
+        <input type="submit" name="Submit" value="Submit">
+        <input type="reset" name="Reset" value="Reset">
+    
+    </p>
+   </form>     
+</fieldset>
+<br />
+<fieldset>
+    <h2 align="center"> Contact Info </h2>
+    <table align="center">
+ 	<tr>
+  	 <th>Name:</th>
+  	 <td style="font-size: medium;"><i> Syed Murtaza Haider </i></td>
+ 	</tr>
+    <tr>
+        <th>Roll#</th>
+        <td style="font-size: medium;"><i>KH01210811418</i></td>
+    </tr> 
+	<tr>
+  	 <th>Phone:</th>
+  	 <td style="font-size: medium;"><i> 0336-3529384 </i></td>
+ 	</tr>
+	<tr>
+  	 <th>Email: </th>
+  	 <td style="font-size: medium;"><i> haiderali_zaidi@outlook.com </i></td>
+ 	</tr>
+    </table>
+</fieldset>
+</body>
+</html>

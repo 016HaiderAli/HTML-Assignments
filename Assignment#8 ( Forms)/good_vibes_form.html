@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Good Vibes Form</title>
+</head>
+<style>
+    fieldset {
+        background-color: white;
+    }
+</style>
+
+<body>  
+    <h1 style="font-family: sans-serif;" align="center"> Assignment#8</h1> 
+
+    <table border="2px" style="background-color: #00bfff;">
+        <tr>
+            <th style="font-size: 20pt;"> <a href="index.html">UserInfo</a></th>
+            <th style="font-size: 20pt;"> <a href="Permission to date my daughter.html">Application to Date my Daughter Task</a> </th>
+            <th style="font-size: 20pt;"> <a href="good_vibes_form.html">Good Vibes Form Task</a> </th>
+            <th style="font-size: 20pt;"> <a href="survey_form.html">Free Code Camp Survey Form Task</a> </th>
+            <th style="font-size: 20pt;"> <a href="Building_with_Html_and_CSS.html">Building with HTML and CSS Task</a> </th>
+            <th style="font-size: 20pt;"> <a style="font-size: 20pt;"> <a href="Project_ideas.html">HTML Project Ideas Task</a> </th>
+        </tr>    
+   </table>
+  
+   <form style="background-color: #00bfff;">
+    <center>
+        <h1>Good Vibes Form</h1>
+        <form>
+            <fieldset>
+                <p style="font-size:20px"><b>Tell us something positive that happened to you today.</b></p>
+                <table>
+                    <tr>
+                        <td height="40" valign="top" align="right">Name </td>
+                        <td valign="top"><input type="text" name="name" placeholder="Enter your name"></td>
+                    </tr>
+                    <tr>
+                        <td height="40" valign="top" align="right">Email </td>
+                        <td valign="top"><input type="email" name="email" placeholder="Enter your email address"></td>
+                    </tr>
+                    <tr>
+                        <td height="40" valign="top" align="right">On a scale of 1-10, how good was it? </td>
+                        <td valign="top"><input type="number" name="rate" placeholder="Enter a number between 1 and 10">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="40" valign="top" align="right">Where did it happen? </td>
+                        <td valign="top">
+                            <select name="place">
+                                <option value="work">At Work</option>
+                                <option value="home" selected="selected">At Home</option>
+                                <option value="university">At University</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="80" valign="top" align="right">At what time of day did it happen? </td>
+                        <td valign="top">
+                            <input type="radio" name="time" value="morning">Morning <br>
+                            <input type="radio" name="time" value="afternoon">Afternoon <br>
+                            <input type="radio" name="time" value="evening">Evening
+                            <input type="radio" name="time" value="night">Night
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="120" valign="top" align="right">
+                            What emotions did you experience? <br>
+                            (Select all that apply) 
+                        </td>
+                        <td valign="top">
+                            <input type="checkbox" name="experience" value="Exited">Excited <br>
+                            <input type="checkbox" name="experience" value="Humbled">Humbled <br>
+                            <input type="checkbox" name="experience" value="Elated">Elated <br>
+                            <input type="checkbox" name="experience" value="Loved">Loved <br>
+                            <input type="checkbox" name="experience" value="Enthusiastic">Enthusiastic
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="70" valign="top" align="right">Please describe your positive experience </td>
+                        <td valign="top"><textarea name="describe_experiene" cols="30" rows="3"
+                                placeholder="Enter your experiences here..."></textarea></td>
+                    </tr>
+                </table>
+                    <input type="submit" value="Submit" style="background-color: #00bfff;">
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>

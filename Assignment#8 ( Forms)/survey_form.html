@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Form</title>
+</head>
+<style>
+    fieldset {
+        background-color: rgb(0, 0, 135);
+    }
+</style>
+<body bgcolor="navyblue">
+    <h1 style="font-family: sans-serif;" align="center"> Assignment#8</h1> 
+    <h2 align="center">Date: 5<sup>th</sup> March 2022</h2>
+    <table border="2px" style="background-color: #00bfff;">
+        <tr>
+            <th style="font-size: 20pt;"> <a href="index.html">UserInfo</a></th>
+            <th style="font-size: 20pt;"> <a href="Permission to date my daughter.html">Application to Date my Daughter Task</a> </th>
+            <th style="font-size: 20pt;"> <a href="good_vibes_form.html">Good Vibes Form Task</a> </th>
+            <th style="font-size: 20pt;"> <a href="survey_form.html">Free Code Camp Survey Form Task</a> </th>
+            <th style="font-size: 20pt;"> <a href="Building_with_Html_and_CSS.html">Building with HTML and CSS Task</a> </th>
+            <th style="font-size: 20pt;"> <a style="font-size: 20pt;"> <a href="Project_ideas.html">HTML Project Ideas Task</a> </th>
+        </tr>    
+   </table>
+        <!--Start of Task-->
+        <h2 align="center" style="color:white">freeCodeCamp Survey Form</h2>
+        <p align="center" style="color:white"><i>thank you for taking the time to help us improve the platform</i></p>
+    
+    <fieldset>
+        <label style="color:white">Name <br> <input type="text" name="name" style="color:white" placeholder="Enter your name" required="required"></label>
+        <br><br>
+        <label style="color:white">Email <br> <input type="email" name="email" style="color:white" placeholder="Enter your email address" required="required"></label>
+        <br><br>
+        <label style="color:white">Age (optional) <br> <input type="number" name="age" style="color:white" placeholder="Age"></label>
+        <br><br>
+        <label style="color:white">Which option best describes your current role? <br> 
+            <select name="role" required="required">
+                <option value="Select current role" style="color:white">Select current role</option>
+                <option value="Student" style="color:black">Student</option>
+                <option value="Full Time Job" style="color:black">Full Time Job</option>
+                <option value="Full Time Learner" style="color:black">Full Time Learner</option>
+                <option value="Prefer Not To Say" style="color:black">Prefer Not To Say</option>
+                <option value="Other" style="color:black">Other</option>
+            </select>
+        </label>
+        <br><br>
+        <label style="color:white">Would you recomment freeCodeCamp to a friend? <br>
+        <input type="radio" name="recommend" value="Definately" checked="checked"> Definitely
+        <input type="radio" name="recommend" value="Maybe">Maybe
+        <input type="radio" name="recommend" value="Not Sure">Not Sure
+        </label>
+        <br><br>
+        <label style="color:white">What is your favourite feature of freeCodeCamp? <br>
+            <select name="feature" required="required">
+                <option disabled selected value>Select an option</option>
+                <option value="challenges" style="color:black">Challenges</option>
+                <option value="projects" style="color:black">Projects</option>
+                <option value="community" style="color:black">Community</option>
+                <option value="openSource" style="color:black">Open Source</option>
+            </select>    
+        </label>
+        <br><br>
+        <label style="color:white">What would you like to see improved? (Check all that apply) <br>
+            <input name="prefer" value="front-end-projects" type="checkbox" style="color:white">Front-end Projects <br>
+            <input name="prefer" value="back-end-projects" type="checkbox" style="color:white">Back-end Projects <br>
+            <input name="prefer" value="data-visualization" type="checkbox" style="color:white">Data Visualization <br>
+            <input name="prefer" value="challenges" type="checkbox" style="color:white">Challenges <br>
+            <input name="prefer" value="open-source-community" type="checkbox" style="color:white">Open Source Community <br>
+            <input name="prefer" value="gitter-help-rooms" type="checkbox" style="color:white">Glitter help rooms <br>
+            <input name="prefer" value="videos" type="checkbox" style="color:white">Videos <br>
+            <input name="prefer" value="city-meetups" type="checkbox" style="color:white">City Meetups <br>
+            <input name="prefer" value="wiki" type="checkbox" style="color:white">Wiki <br>
+            <input name="prefer" value="forum" type="checkbox" style="color:white">Forum <br>
+            <input name="prefer" value="additional-courses" type="checkbox" style="color:white">Additional Courses
+        </label>
+        <br><br>
+        <label style="color:white">Any comments or suggestions? <br> <textarea name="comments" cols="30" rows="5" placeholder="Enter your comment here..."></textarea></label>
+        <br><br>
+        <input type="submit" value="Submit">
+    </fieldset>
+    <!--End of Task-->
+</body>
+</html>
