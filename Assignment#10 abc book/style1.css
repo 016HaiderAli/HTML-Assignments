@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Personal_Font;
+    src: url(./fonts/html5_values.ttf);
+}
+@font-face {
+    font-family: Font2;
+    src: url(./fonts/LuckiestGuy.ttf);
+}
+
+/*Applying color on background*/
+body{
+    background-color: aquamarine;
+}
+/* Applying Styles on H1 i.e*/
+.first-h{
+	font-family: "Personal_Font";
+    font-size: 100px;
+    margin: 0%;
+    font-style: italic;
+    color: black;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*Increasing Font size of links*/
+.link{
+    font-size: 20pt;
+}
+
+/*Placing a hover on link*/
+.link a:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+
+/*Changing Font and color*/
+a{
+    text-decoration: none;
+    color: red;
+    font-family: Font2;
+}
+
+.top{
+	text-decoration:none;
+	color: royalblue;
+	position:fixed;
+	top:85%;
+	margin-left:88%;
+	padding:8px;
+	font-family: Font2;
+	font-size:2.5em;
+	background-color:red;
+	border-radius:3px 25px 3px 25px;
+	cursor:pointer;
+    ;
+}
+.top:hover{
+	background-color: red;
+	border:1px solid darkred;
+}
+
+
+/*Fixing Resolution of all image*/
+.image{
+    width: 250px; height: 250px;
+}
+
+/*Editing Table*/
+th{
+    background-color: grey;
+    font-size: 50px;
+    color: gold;
+}   
+td.explain{
+    font-size: 50px;
+    text-align: center;
+    color: gold;
+    background-color: grey;
+}
+
+/*Editing Form*/
+label{
+    font-size: 20px;
+    font-family: Font2;
+    color: red;
+}
+
+textarea{
+    background-color: pink;
+}
+
+input{
+    font-family: Font2;
+    color: red;
+    background-color: pink;
+    font-size: 20px;
+}
