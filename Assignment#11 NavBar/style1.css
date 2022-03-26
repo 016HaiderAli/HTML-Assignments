@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.logo{
+    float: left;
+    background: skyblue;
+    overflow: hidden;
+}
+.logo h2{
+    padding: 8px 12px;
+    display: block;
+    font-size: 14px;
+    font-family: Arial;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 4px 8px gray;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav{
+    background: skyblue;
+    overflow: hidden;
+}
+.nav a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav a:hover{
+ background: #ddd;
+ color: blue;
+}
+.nav a.active{
+ background: black;
+ color: gold;
+}
+.search-container{
+    float: left;
+}
+.nav input[type=text]{
+    padding: 6px;
+    margin-top: 12px;
+    font-size: 17px;
+    border: none;
+}
+.search-container button{
+    float: left;
+    padding: 6px;
+    margin-top:12px;
+    margin-left: 30px;
+    background: #2196f3;
+    font-size: 17px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0px 5px 5px 0;
+    cursor: pointer;
+}
+.search-container button:hover{
+ background: #ccc;
+}
+.auth{
+    float: right;
+}
+.auth button{
+    border: none;
+    margin-top: 12px;
+    padding: 6px;
+    font-size: 17px;
+}
+.auth button:hover{
+    color: #fff;
+    background-color: cornflowerblue;
+}
