@@ -1,0 +1,458 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.head{
+    border: 2px solid  rgba(78,99,110,255);
+    box-shadow: 5px rgb(30, 30, 87);
+    background-color: rgba(78,99,110,255);
+    display: flex;
+    width: 100%;
+    height: 52px;
+    position: sticky;
+    top: 0;
+}
+.home{
+    background-color: rgba(58,75,83,255);
+    width: 10%;
+    padding-top: 15px;
+    
+}
+
+.home a {
+    width: 25px;
+    height: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    word-spacing: 2px;
+}
+
+.icons{
+    display: inline-block;
+    width: 80%;
+    height: inherit;
+    border: 1px solid rgb(34, 187, 80);
+    margin: 0%;
+    padding: 0%;
+   
+}
+ .icons ul{
+    list-style: none;
+    justify-content: space-between;
+    
+     
+}
+.icons ul li{
+    display: inline-block;
+    padding-right: 30px;
+    
+ 
+    
+    
+}
+.icons ul li a{
+    overflow: hidden;
+    padding-right: 5px;
+    width: 40px;
+    height: 25px;
+    color: white;
+    
+} 
+.my{
+    display: flex;
+}
+ .ava{
+    width: 10%;
+    border: 1px solid red;
+     
+}
+.ava a{
+    float: right;
+}
+   
+
+h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.pro{
+    border: 2px solid gray;
+    box-shadow: 20px black;
+    border-radius: 3px;
+    width: 20%;
+    height: 300px ;
+    margin: 10px 10px 10px 90px;
+
+
+}
+.pro a{
+    text-align: center;
+}
+.pro a img{
+    border: 2px solid;
+    border-radius: 100%;
+    width: 30%;
+    display: flex;
+    margin-left: 90px;
+
+}
+.co{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid rgb(245, 227, 227);
+    width: 15%;
+    height: 300px;
+}
+.up p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 12pt;
+}
+.even ul{
+    list-style: none;
+
+}
+.even ul li{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.even ul li img{
+    width: 80%;
+    padding-right: 15px;
+}
+.info{
+    margin-right: 20px;
+    margin-left: 50px;
+   
+
+}
+.info p{
+    text-align: center;
+    border: 2px solid grey;
+    width: 80%;
+    height: 15px;
+    padding: 5px;
+    background-color: rgb(141, 132, 132);
+    color: white;
+    
+
+}
+.req{
+    margin-top: 40px;
+    border:2px solid rgb(245, 227, 227) ;
+    height: 80%;
+}
+.req p{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none; 
+
+}
+.fri{
+    padding-right: 25px;
+    padding-left: 25px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.fri a{
+    text-decoration: none;
+    margin-left: 25px;
+
+}
+
+.fri a img{
+    width: 70%;
+    border: 2px solid blue;
+    border-radius: 100%;
+    
+}
+.sel{
+    /* border: 2px solid black; */
+    display: flex;
+    
+}
+.sel p{
+    border: 2px solid white;
+    display: inline;
+    width: 50%;
+    /* margin-left: 50px; */
+    padding: 5px;
+    /* text-align: center; */
+    justify-content: space-between;
+    color: white
+}
+.sel p i{
+    border: ;
+}
+.dns{
+    /* margin-top: 40px; */
+    width: 100%;
+    height: 100px;
+    border: 2px solid rgb(245, 227, 227) ;
+    display: inline-block;
+} 
+.ads p{
+    padding: 15px;
+    text-align: center;
+}
+.bg{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    border: 2px solid rgb(245, 227, 227);
+    
+} 
+.bug p{
+    padding: 5px;
+    font-size: 24pt;
+    
+
+}
+.ic{
+    display: inline;
+    
+}
+.ic ul {
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-around;
+
+}
+,ic ul li{
+    display: block;
+    overflow: hidden;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.ic ul li a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(31, 24, 24);
+    text-decoration: none;
+
+}
+.ic ul li a i{
+    padding-right: 20px;
+}
+
+.pho{
+    display: inline;
+
+}
+.eve{
+    border: 2px solid grey;
+    background-color: rgb(94, 82, 82);
+    margin: 10px 10px 10px 90px;
+    width: 20%;
+    height: 120px;
+    overflow: hidden;
+   
+}
+.eve ul {
+    list-style: none;
+}
+.eve ul li{
+   margin-top: 5px;
+   
+
+}
+.eve ul li a{
+    text-decoration: none;
+    color: white;
+}
+.eve ul li a i{
+    padding-right: 30px
+}
+ .pos{
+    display: inline;
+    margin-left: 90px; 
+    border: 2px solid red;
+    width: 50%;
+}
+.ase{
+    display: flex;
+ 
+}
+
+.ase a img{
+    border: 2px solid blue;
+    border-radius: 100%;
+    width: 200px;
+} 
+
+.int{
+    border: 2px solid rgb(204, 190, 190);
+    border-radius: 2px;
+    box-shadow: 15px rgb(63, 62, 62);
+    margin: 10px 0px 0px 90px ;
+    width: 20%;
+    height: 150px;
+    
+}
+.inter{
+    
+    margin-bottom: 0%;
+    padding: 0%;
+    display: flex;
+}
+h5{
+    margin-top: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+    font-size: 14pt;
+}
+.intl{}
+
+.intl ul{
+    list-style: none;
+    display: inline;
+    
+}
+.intl ul li{
+    display: inline-block;
+    font-size: 10pt;
+    border: 2px solid rgb(66, 44, 44);
+    margin-bottom: 10px;
+
+}
+.intl ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mar{
+    margin-top: 10px;
+    margin-left: 90px;
+    border: 2px solid rgb(206, 199, 199);
+    box-shadow: 10px solid rgb(66, 44, 44);
+    width: 20%;
+    height: 100px;
+    display: inline-block;
+    background-color: rgb(185, 173, 173);
+}
+.he{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.he span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+.he a{
+    background-color: rgb(173, 159, 159);
+    border: 2px solid rgb(170, 157, 157);
+    border-radius: 4px;
+    
+}
+.he a i{
+    margin: 10px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    width: 15px;
+    height: 10px;
+
+}
+.loo p{
+    margin-top: 10px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    font-size: 11pt;
+}
+.w3{
+    margin-left:8px;
+    margin-top: 10px; 
+    display: inline-block; 
+    width: 50%;
+    height: 30%;
+
+}
+.w3 p{
+    color: rgb(100, 92, 92);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+}
+.w3 input{
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 90%;
+    height: 25px;
+}
+.post{
+    margin: 10px;
+    border: 2px solid gray;
+    width: 10%;
+    padding: 5px;
+    background-color:rgb(100, 92, 92) ;
+}
+.post a{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+.post a i{
+    margin-right: 3px;
+}
+.content_area {
+    border: 1px solid;
+    margin-bottom: 20px;
+    border: 2px solid rgb(245, 227, 227);
+    box-shadow: 15px solid rgb(90, 84, 84);
+
+}
+.vat{
+    padding: 5px;
+    display: flex;
+}
+.vat img{
+    width: 10%;
+    border: 2px solid blue;
+    border-radius: 100%;
+}
+.vat p{
+    margin-left: 550px;
+}
+.lor{
+    display: inline;
+}
+.tree{
+    padding: 5px;
+    justify-content: space-between;
+}
+.tree img{
+    border: 2px solid rgb(141, 144, 148);
+    width: 40%;
+}
+.thu{
+    /* border: 2px solid black; */
+    width: 70%;
+}
+.thu ul{
+
+}
+.thu ul li{
+    display: inline-block;
+    justify-content: space-between;
+    /* margin-left: 10px; */
+    width: 30%;
+    
+}
+.thu ul li a{
+    /* border: 2px solid rgb(141, 144, 148); */
+    padding: 10px;
+    margin-left: 10px;
+    background-color: rgb(141, 144, 148);
+    color: white;
+    text-decoration: none;
+    
+}
